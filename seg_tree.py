@@ -50,15 +50,20 @@ print(segT.tree)
 # print(segT.query(1, 0, len(arr) - 1, 6, 8))
 
 # ------------------- Question 6 -----------------------
+"""
+    Binary search on SegTree,
+    query2 - O(log(N)*log(N)) - to kim
+"""
+
 # Question 6: find index which is the beginning of the number above given number, when the array is DYNAMIC
 # queries: (1, i, x) update index i with x
 # queries: (2, x) find the least index having val>=x
 # eg: 5, ans: 4
 
-# update
+# update - q1
 segT.update(1, 0, len(arr) - 1, 4, 22)
 
-# query
+# query - q2
 # what you can get is the range query i.e, from (0, 7) i.e, (qs, qe) where qs<qe
 print(segT.query(1, 0, len(arr) - 1, 6, 8))
 
@@ -73,5 +78,16 @@ while l < r:
         r = mid
     else:
         l = mid + 1
-
 print(l)
+
+# ---------------------------------------------------------
+
+""" Other questions:
+    Nested Segment and overlapping segment.
+    [5,1,2,2,3,1,3,4,5,4]
+    2N elements find out for each element 1<= e <=N
+    Number of elements lying completely inside ebegin and eend
+    Eg, for 1: which is in [1, 5] interval there is `1` completely lying.
+
+    Ans: will be for all intervals greedily sort on e's interval end, then use `present sir` on e's iinterval begin.
+"""
