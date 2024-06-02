@@ -2,10 +2,10 @@
 
 ## MFU algorithms
 
-Longest increasing subsequence - N * logN
-    - Keep a monotonic array
-    - If the present element is freshly greatest append it.
-    - Else, Binary search and update so that it reduces for further coming numbers
+Longest increasing subsequence - N * logN  
+    - Keep a monotonic array  
+    - If the present element is freshly greatest append it.  
+    - Else, Binary search and update so that it reduces for further coming numbers  
 
 ## Intuition
 127. Word ladder -> BFS because we don't want loop. And maybe optimize using A*
