@@ -2,4 +2,8 @@
 
 ## Sorting
 Stable and unstable sorting algorithms
-<detail> Stable sorting algorithms preserve the relative order of equal elements, while unstable sorting algorithms don't. </detail>
+<details> <summary> Stable sorting algorithms preserve the relative order of equal elements, while unstable sorting algorithms don't.</summary> Stable sorting algorithms preserve the relative order of equal elements, while unstable sorting algorithms don't. </details>
+
+
+
+<details><summary>Toggle me!</summary>Peek a boo!</details>
