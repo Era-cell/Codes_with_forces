@@ -1,1 +1,4 @@
+"""
+Failure links trie
 
+"""
