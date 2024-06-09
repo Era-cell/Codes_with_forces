@@ -1,6 +1,6 @@
 """
 Bridge is an edge which increases the number of components in a graph
-
+For undirected graph:
 Complexity: O( E )
 """
 
