@@ -1,12 +1,4 @@
-import copy
-import math
-import time, sys
-from collections import defaultdict
-
-# h = list(map(int, input().split(" ")))
-# a = list(map(int, input().split(" ")))
-#
-# n, k = list(map(int, input().split(" ")))
+import sys
 
 """"
 Applies for directed graph. 
