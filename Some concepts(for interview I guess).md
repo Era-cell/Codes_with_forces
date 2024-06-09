@@ -6,5 +6,9 @@
 
 
 
-### Repeating snippet
+# Resources:
+
+Big O cheatsheet: https://www.bigocheatsheet.com/
+
+## Repeating snippet
 <details><summary>Toggle me!</summary>Peek a boo!</details>
