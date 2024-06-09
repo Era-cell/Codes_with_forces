@@ -1,3 +1,9 @@
+"""
+Bridge is an edge which increases the number of components in a graph
+
+Complexity: O( E )
+"""
+
 from collections import defaultdict
 
 n = int(input("Number of edges: "))
@@ -26,6 +32,7 @@ def recur(curr, parent=-1):
     for node in adj[curr]:
         if node != parent:
             least_time, r = recur(node, curr)
+            # if I am(i.e, node) connected to someone who is already visited, I am connected. Thats great
             least_discovery_time[curr] = min(least_discovery_time[curr], least_time)
             res += r
             if least_discovery_time[curr] != least_discovery_time[node]: res.append((curr, node))
