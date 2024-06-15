@@ -1,5 +1,11 @@
 text = input()
 pattern = input()
+"""
+  Go on straight until its matching,
+  Then come back from where you started matching, and go on assigning: 
+    If you exceed match assign is out of r break, compare again 
+"""
+
 
 zarr = [0]
 
