@@ -4,7 +4,7 @@
 
 ### One node to all other nodes/ other node without -ve weights: Dijkstra's - *O( E * logV )*
 
-### One node to all other nodes even with -ve weights: Bellmanford - O( V * E )
+### One node to all other nodes even with -ve weights: Bellman ford - O( V * E )
 
 ### All nodes to all other node: Johnson's algorithm = Bellmanford(on new vertice 0 weight) + Deduce relative weight + Dijkstra's on all vertices - O( V * E * logV )
 
@@ -13,3 +13,8 @@
 - Kruskal's algorithm = Sort weights + Include edges not forming cycles(using DSU) - O( E * logE )
 
 ## Disjoint Set Union
+
+## Topological sorting
+
+- By using DFS
+- By using BFS(indegree): Kahn's algorithm
