@@ -18,3 +18,8 @@
 
 - By using DFS
 - By using BFS(indegree): Kahn's algorithm
+
+
+## Properties
+
++ M ^ X, Mij gives number of paths of length X from i to j
