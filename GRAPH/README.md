@@ -6,7 +6,11 @@
 
 ### One node to all other nodes even with -ve weights: Bellman ford - O( V * E )
 
+### All nodes to all other node: Floyd Warshall - O( V ** 3 )
+
 ### All nodes to all other node: Johnson's algorithm = Bellmanford(on new vertice 0 weight) + Deduce relative weight + Dijkstra's on all vertices - O( V * E * logV )
+
+Note: Floyd warshall may be equivalent or even better than Johnson's if number of edges are V*(V-1)/2
 
 ## Minimum cost spanning tree
 
