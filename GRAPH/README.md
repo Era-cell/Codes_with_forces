@@ -29,7 +29,7 @@ Note: Floyd warshall may be equivalent or even better than Johnson's if number o
 
 ## Number of regions in a planar graph
 
-- Euler found out that: Vertices + Regions = Edges + 2
+- Euler found out that: Vertices + Regions = Edges + 2 , which also includes the external region
 
 
 ## Properties
