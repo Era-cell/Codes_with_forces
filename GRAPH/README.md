@@ -23,7 +23,17 @@ Note: Floyd warshall may be equivalent or even better than Johnson's if number o
 - By using DFS
 - By using BFS(indegree): Kahn's algorithm
 
+## Euler's path
+
+- Hierholzer's thorem = Go to as depth as possible using DFS
+
+## Number of regions in a planar graph
+
+- Euler found out that: Vertices + Regions = Edges + 2
+
 
 ## Properties
 
 + M ^ X, Mij gives number of paths of length X from i to j
+
+
