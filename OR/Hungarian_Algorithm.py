@@ -2,7 +2,7 @@
 Assi9gnment problem ------>
 
 Assigment of n machines for n jobs, 
-such that minimum/maximum cost
+such that minimum cost
    Job1 Job2 Job3 Job4 Job5
 A   9    10   12   8    2
 B   4    23   21   3    12
@@ -25,5 +25,17 @@ Step 5: If no of marked 0's are == n, then that's the answer
          subtract minn from unconvered values
          add minn to all intersections.
          Unmark all, and repeat from Step 3.
+
+
+
+maximum cost:
+Step 1: same
+Step 2: same
+Step 3: Skip if 1 or less 0's else mark, 
+Step 4: Same as 3 for columns
+Step 5: If no of marked 0's are == n, then:
+         - for all rows if single 0, take and cross 0's in its columns.  
+         - then you get unique answer's
+      else, same as minimization.
 """
 
