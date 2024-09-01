@@ -7,5 +7,5 @@
   Minimum total cost: Hungarian algorithms  
   Maximization:  
     - Convert to minimization then use Hungarian  
-    - i.e subtract all values with maximum value in the grid, and we get say a loss matrix on which we apply Hungarian
+    - i.e subtract all values with maximum value in the grid, and we get say a loss matrix on which we apply Hungarian.  
   Unbalanced? Introduce dummy rows/columns with all 0's  
