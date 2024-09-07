@@ -25,7 +25,7 @@ Note: Floyd warshall may be equivalent or even better than Johnson's if number o
 
 ## Euler's path
 
-- Hierholzer's thorem = Go to as depth as possible using DFS
+- Hierholzer's thorem = Go to as depth as possible using DFS, also all vertices have even degree.
 
 ## Number of regions in a planar graph
 
