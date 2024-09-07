@@ -31,6 +31,11 @@ Note: Floyd warshall may be equivalent or even better than Johnson's if number o
 
 - Euler found out that: Vertices + Regions = Edges + 2 , which also includes the external region
 
+## Maximum flow in a network from s to t:
+
+- Ford Fulkerson's algorithm = Choose flows greedily, and residual flow (backward edges, when they are non-zero)
+- Max Flow == Min Cut, Min Cut is the disjoint set A, B. A includes s and B includes t, A U B = (set of V). 
+
 
 ## Properties
 
